@@ -1,6 +1,6 @@
 # Hey, I'm Abi Raghavan
 
-AI engineer. Data Scientist. Occasional full-stack Ninja.  
+AI Engineer. Data Scientist. Occasional full-stack Ninja.  
 Building cool stuff, mostly behind the scenes.  
 Projects? 🔒 Classified. Trust me, they exist.
 
