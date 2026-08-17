@@ -1,35 +1,42 @@
 # Abi Raghavan
 
-**Senior AI Engineer · Data Scientist · ML Engineer**
+**Senior AI Engineer | Data Scientist | Machine Learning Engineer**
 
-Generative AI & RAG · Forecasting & Predictive Modelling · Production ML & MLOps
+Generative AI and RAG · Forecasting and Predictive Modelling · Production ML and MLOps
 
-> 7+ years at **IQVIA** (Fortune 500 healthcare data & analytics) taking AI products from idea to live production — models, APIs, CI/CD, and the cloud that runs them.
+Based in Bengaluru, India. 7+ years at IQVIA (Fortune 500 healthcare data and analytics) delivering AI systems from prototype to production, including models, APIs, CI/CD and cloud infrastructure.
 
-📍 Bengaluru, India
+## Selected Work
 
----
+| Area | Outcome |
+| --- | --- |
+| Generative AI / RAG | Natural-language assistant over an enterprise analytics platform, answering 20+ business KPIs in seconds; built with LangChain and FAISS, with a groundedness evaluation harness. |
+| Forecasting | Season-level risk model trained on 9 years of data; 20–30% accuracy improvement over baseline, replacing a 1–2 day manual review with automated daily alerts. |
+| Platform Engineering | Lead developer of a patient analytics platform deployed across 5+ countries, with an Elasticsearch backend for sub-second search. |
+| Data Engineering | Migrated a legacy C++ system to PySpark and Databricks, reducing full project runtime from approximately one week to 1–4 hours. |
+| Explainability | SHAP-based risk models surfacing the specific drivers behind each score for business decision-makers. |
 
-## Highlights
+## Technical Skills
 
-- 🤖 Built a **GenAI/RAG assistant** over an enterprise analytics platform — plain-English answers across **20+ KPIs in seconds**, replacing queries that took hours.
-- 📈 Built a season-level **risk forecasting model** on 9 years of data — **~20–30% accuracy gain**, turning a 1–2 day manual review into automated daily alerts.
-- 🏥 Lead developer of a **Patient Analytics Platform** deployed across **5+ countries** with sub-second Elasticsearch search.
-- ⚡ Re-engineered a legacy C++ system into PySpark/Databricks — cut project runs from **~1 week to 1–4 hours**.
-- 🏆 **Two-time company hackathon winner** (one concept secured product funding).
+- **Generative AI:** RAG architectures, LLM application development, LangChain, prompt engineering, vector search (FAISS), embeddings, semantic search
+- **Machine Learning:** Forecasting and time-series, predictive and risk modelling, ranking and scoring, XGBoost, deep learning, anomaly detection, SHAP
+- **Statistics:** A/B testing, experiment design, hypothesis testing, uplift modelling, segmentation
+- **Data Engineering:** PySpark, Python, SQL, Databricks, Delta Lake, Elasticsearch, ETL/ELT pipeline design
+- **Cloud and MLOps:** Azure, AWS, Docker, MLflow, CI/CD, REST APIs (Flask), microservices, model monitoring and versioning
+- **Domain:** Healthcare and life sciences, sports analytics, commercial targeting analytics, regulated data environments
 
-## Tech Stack
+## Public Projects
 
-- **GenAI:** RAG · LangChain · FAISS · embeddings · prompt engineering
-- **ML/DS:** Forecasting · XGBoost · Deep Learning · SHAP · A/B testing · anomaly detection
-- **Data:** PySpark · SQL · Databricks · Delta Lake · Elasticsearch · ETL/ELT
-- **Cloud/MLOps:** Azure · AWS · Docker · MLflow · CI/CD · Flask REST APIs · Triton
+[github.com/abi-raghavan/x-labs](https://github.com/abi-raghavan/x-labs)
 
-## Live Projects — [github.com/abi-raghavan/x-labs](https://github.com/abi-raghavan/x-labs)
+- **[Ride Incentive Engine](https://ride-signal-argon.streamlit.app)** — Scores users and recommends targeted incentives; model, scoring logic and interface built and deployed end to end.
+- **[Experimentation Lab](https://x-lab-argon.streamlit.app)** — A/B testing and statistical analysis tool covering experiment setup, significance testing and interpretation.
 
-- **[Ride Incentive Engine](https://ride-signal-argon.streamlit.app)** — ML-driven incentive scoring & recommendation app, built and deployed end to end.
-- **[Experimentation Lab](https://x-lab-argon.streamlit.app)** — A/B testing tool for experiment setup, significance testing and result interpretation.
+## Education
 
-## Connect
+B.Tech, Electronics and Communication Engineering — National Institute of Technology (NIT) Calicut, 2015–2019
 
-📧 abiraghavan@outlook.com · 💼 [LinkedIn](https://www.linkedin.com/in/abiraghavan/)
+## Contact
+
+- Email: abiraghavan@outlook.com
+- LinkedIn: [linkedin.com/in/abiraghavan](https://www.linkedin.com/in/abiraghavan/)
