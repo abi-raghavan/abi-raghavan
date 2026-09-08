@@ -11,7 +11,8 @@ Bengaluru, India. 7+ years at IQVIA taking AI systems from prototype to producti
 ## Projects
 
 **[Agentic Stock Intelligence](https://github.com/abi-raghavan/agentic-stock-intelligence)** - Multi-agent equity research for NSE/BSE and US markets. A LangGraph workflow chains planning, research, hybrid RAG, risk synthesis and report verification, re-retrieving when claims fail verification. Live data falls back to labelled snapshots that cap reported confidence.
-Live : https://agentic-stock-intelligence.vercel.app/
+Live : https://agentic-stock-intelligence.vercel.app/.
+
 `Python` `LangGraph` `FastAPI` `Next.js` `BM25` `Docker`
 
 **[AIRA](https://github.com/abi-raghavan/aira-core)** - Offline-first Android voice companion. Speech is processed on-device and never stored, phrases map to fixed scripts through deterministic rules, and a separate demo build cannot send SMS or place calls.
