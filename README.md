@@ -2,56 +2,44 @@
 
 **Senior AI Engineer | Data Scientist | Machine Learning Engineer**
 
-Generative AI and RAG - Forecasting and Predictive Modelling - Production ML and MLOps
+GenAI and RAG - Forecasting and Predictive Modelling - Production ML and MLOps
 
-Based in Bengaluru, India. 7+ years at IQVIA (Fortune 500 healthcare data and analytics) delivering AI systems from prototype to production, including models, APIs, CI/CD and cloud infrastructure.
+Bengaluru, India. 7+ years at IQVIA taking AI systems from prototype to production: models, APIs, CI/CD and cloud infrastructure.
 
-## Selected Work
+[abiraghavan@outlook.com](mailto:abiraghavan@outlook.com) | [LinkedIn](https://www.linkedin.com/in/abiraghavan/)
 
-| Area | Outcome |
-| --- | --- |
-| Generative AI / RAG | Natural-language assistant over an enterprise analytics platform, answering 20+ business KPIs in seconds; built with LangChain and FAISS, with a groundedness evaluation harness. |
-| Forecasting | Season-level risk model trained on 9 years of data; 20-30% accuracy improvement over baseline, replacing a 1-2 day manual review with automated daily alerts. |
-| Platform Engineering | Lead developer of a patient analytics platform deployed across 5+ countries, with an Elasticsearch backend for sub-second search. |
-| Data Engineering | Migrated a legacy C++ system to PySpark and Databricks, reducing full project runtime from approximately one week to 1-4 hours. |
-| Explainability | SHAP-based risk models surfacing the specific drivers behind each score for business decision-makers. |
+## Projects
 
-## Technical Skills
+**[Agentic Stock Intelligence](https://github.com/abi-raghavan/agentic-stock-intelligence)** - Multi-agent equity research for NSE/BSE and US markets. A LangGraph workflow chains planning, research, hybrid RAG, risk synthesis and report verification, re-retrieving when claims fail verification. Live data falls back to labelled snapshots that cap reported confidence.
+`Python` `LangGraph` `FastAPI` `Next.js` `BM25` `Docker`
 
-- **Generative AI:** RAG architectures, LLM application development, agentic workflows, LangChain, LangGraph, prompt engineering, vector search (FAISS), embeddings, semantic search
-- **Machine Learning:** Forecasting and time-series, predictive and risk modelling, ranking and scoring, XGBoost, deep learning, anomaly detection, SHAP
-- **Statistics:** A/B testing, experiment design, hypothesis testing, uplift modelling, segmentation
-- **Data Engineering:** PySpark, Python, SQL, Databricks, Delta Lake, Elasticsearch, ETL/ELT pipeline design
-- **Cloud and MLOps:** Azure, AWS, Docker, MLflow, CI/CD, REST APIs (FastAPI, Flask), microservices, model monitoring and versioning
-- **Domain:** Healthcare and life sciences, sports analytics, commercial targeting analytics, regulated data environments
+**[AIRA](https://github.com/abi-raghavan/aira-core)** - Offline-first Android voice companion. Speech is processed on-device and never stored, phrases map to fixed scripts through deterministic rules, and a separate demo build cannot send SMS or place calls.
+`Kotlin` `Android` `On-device speech` `Encrypted storage`
 
-## Public Projects
+**[x-labs](https://github.com/abi-raghavan/x-labs)** - Three applied ML and GenAI labs:
 
-### [Agentic Stock Intelligence](https://github.com/abi-raghavan/agentic-stock-intelligence)
+- **[Experimentation Lab](https://x-lab-argon.streamlit.app)** - A/B testing with deterministic SHA-256 assignment, z and t-tests, and SRM plus power checks that run before lift is reported.
+- **[Ride Incentive Recommender](https://ride-signal-argon.streamlit.app)** - Scores four incentive options against a no-incentive baseline, separating booking propensity from incentive uplift.
+- **[RAG Support Assistant](https://github.com/abi-raghavan/x-labs/tree/main/rag_support_assistant)** - Dense and BM25 retrieval fused with RRF, cross-encoder rerank, inline citations, an explicit refusal path, and an evaluation harness.
 
-Multi-agent equity research platform for Indian (NSE/BSE) and US markets. A LangGraph workflow chains planning, research, hybrid RAG retrieval, risk synthesis and report verification, with a re-retrieval pass when claims fail verification. Live prices, fundamentals and news degrade independently to labelled snapshots, and cached evidence caps the reported confidence so a conclusion is never stated more firmly than its sources support.
+Labs run on synthetic data; their metrics describe the evaluation workflow, not production outcomes.
 
-`Python` `LangGraph` `FastAPI` `Next.js` `BM25 RAG` `SQLite` `Docker`
+## Work
 
-### [AIRA](https://github.com/abi-raghavan/aira-core)
+- **GenAI / RAG:** Natural-language assistant over an enterprise analytics platform answering 20+ business KPIs in seconds. LangChain and FAISS, with a groundedness evaluation harness.
+- **Forecasting:** Season-level risk model on 9 years of data, 20-30% accuracy improvement over baseline, replacing a 1-2 day manual review with automated daily alerts.
+- **Platform:** Lead developer of a patient analytics platform deployed across 5+ countries, Elasticsearch backend for sub-second search.
+- **Data engineering:** Migrated a legacy C++ system to PySpark and Databricks, cutting full project runtime from about a week to 1-4 hours.
+- **Explainability:** SHAP-based risk models surfacing the specific drivers behind each score for business decision-makers.
 
-Privacy-first Android voice companion for predictable, offline assistance. Speech is processed on-device and never stored; chosen phrases map to fixed spoken scripts through deterministic rules rather than an open-ended chatbot, and a separate demo build guarantees no SMS or calls while the release build can alert an approved carer.
+## Skills
 
-`Kotlin` `Android` `On-device speech` `Encrypted storage` `Gradle`
-
-### [x-labs](https://github.com/abi-raghavan/x-labs) - applied ML and GenAI labs
-
-- **[Experimentation Lab](https://x-lab-argon.streamlit.app)** - End-to-end A/B testing workflow: deterministic SHA-256 assignment, conversion and revenue analysis with confidence intervals, plus sample ratio mismatch and power checks that flag untrustworthy data before lift is reported.
-- **[Ride Incentive Recommender](https://ride-signal-argon.streamlit.app)** - Explainable rider scoring that compares four incentive options against a no-incentive baseline, separating booking propensity from incentive uplift to avoid discounting riders who would convert anyway.
-- **[RAG Support Assistant](https://github.com/abi-raghavan/x-labs/tree/main/rag_support_assistant)** - Grounded document assistant combining dense and BM25 retrieval with reciprocal rank fusion, cross-encoder reranking, inline citations, an explicit refusal path for out-of-scope questions, and a retrieval and groundedness evaluation harness.
-
-The lab projects run on synthetic or sample data; their metrics describe the implemented evaluation workflow rather than production outcomes.
+- **GenAI:** RAG architectures, agentic workflows, LangChain, LangGraph, FAISS, embeddings, semantic search, prompt engineering, evaluation
+- **ML and stats:** Forecasting and time-series, risk and uplift modelling, ranking, XGBoost, anomaly detection, SHAP, A/B testing and experiment design
+- **Data:** Python, PySpark, SQL, Databricks, Delta Lake, Elasticsearch, ETL/ELT design
+- **Cloud and MLOps:** Azure, AWS, Docker, MLflow, CI/CD, FastAPI, Flask, model monitoring and versioning
+- **Domain:** Healthcare and life sciences, sports analytics, commercial targeting analytics, regulated data
 
 ## Education
 
-B.Tech, Electronics and Communication Engineering - National Institute of Technology (NIT) Calicut, 2015-2019
-
-## Contact
-
-- Email: abiraghavan@outlook.com
-- LinkedIn: [linkedin.com/in/abiraghavan](https://www.linkedin.com/in/abiraghavan/)
+B.Tech, Electronics and Communication Engineering - NIT Calicut, 2015-2019
